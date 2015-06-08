@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreditEvaluationViewControler">
+            <connections>
+                <outlet property="customCell" destination="KGk-i7-Jjw" id="R4e-CM-2d2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="CreditCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="credit_04.png" translatesAutoresizingMaskIntoConstraints="NO" id="ecb-qZ-6sD">
+                        <rect key="frame" x="15" y="8" width="10" height="10"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="credit_04.png" translatesAutoresizingMaskIntoConstraints="NO" id="HzQ-EC-eVP">
+                        <rect key="frame" x="33" y="8" width="10" height="10"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="credit_04.png" translatesAutoresizingMaskIntoConstraints="NO" id="gmH-r8-bvM">
+                        <rect key="frame" x="51" y="8" width="10" height="10"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="credit_04.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nzx-bM-x9F">
+                        <rect key="frame" x="69" y="8" width="10" height="10"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="credit_03.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="jo1-jZ-45m">
+                        <rect key="frame" x="87" y="8" width="10" height="10"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4天前" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQt-OE-RkX">
+                        <rect key="frame" x="162" y="3" width="159" height="19"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="0.76000000000000001" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="7" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="你是谁着啊好舒服啊还是放假撒分分返回技术开发洒落符合健康啊。。。。。" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdP-XN-RhV">
+                        <rect key="frame" x="15" y="21" width="300" height="51"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="credit_05.png" translatesAutoresizingMaskIntoConstraints="NO" id="iO6-ZE-Mpa">
+                        <rect key="frame" x="18" y="70" width="25" height="25"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="9" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ray" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wO8-CZ-Nsn">
+                        <rect key="frame" x="51" y="79" width="87" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="0.88" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APP策划" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PH5-92-60i">
+                        <rect key="frame" x="202" y="75" width="119" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="0.81000000000000005" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="days" destination="rQt-OE-RkX" id="ksl-ca-grE"/>
+                <outlet property="detailText" destination="sdP-XN-RhV" id="ERW-nR-BV6"/>
+                <outlet property="headImage" destination="iO6-ZE-Mpa" id="bSJ-WO-im8"/>
+                <outlet property="star1" destination="ecb-qZ-6sD" id="mtT-He-XLZ"/>
+                <outlet property="star2" destination="HzQ-EC-eVP" id="JDE-E4-lAc"/>
+                <outlet property="star3" destination="gmH-r8-bvM" id="pTG-lE-KrT"/>
+                <outlet property="star4" destination="Nzx-bM-x9F" id="Vfu-9B-ijn"/>
+                <outlet property="star5" destination="jo1-jZ-45m" id="G8X-ah-ovC"/>
+                <outlet property="userName" destination="wO8-CZ-Nsn" id="WGJ-7d-Eat"/>
+                <outlet property="workStyle" destination="PH5-92-60i" id="IaV-r9-O1K"/>
+            </connections>
+            <point key="canvasLocation" x="367" y="213"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="credit_03.PNG" width="22" height="22"/>
+        <image name="credit_04.png" width="22" height="22"/>
+        <image name="credit_05.png" width="47" height="47"/>
+    </resources>
+</document>
